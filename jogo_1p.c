@@ -167,11 +167,12 @@ int main (){
 
         printf("\n%s escolha sua caixa: ", nome_primeiro);
         scanf("%d", &caixa_escolhida1);
-        printf("%s escolha sua caixa (diferente da escolhida pelo primeiro): \n", nome_segundo);
+        printf("%s escolha sua caixa (diferente da escolhida pelo primeiro): ", nome_segundo);
         scanf("%d", &caixa_escolhida2);
+        printf("");
         
         while (caixa_escolhida2 == caixa_escolhida1){
-            printf("Escolha uma caixa diferente!\n");
+            printf("\nEscolha uma caixa diferente!\n");
             printf("Escolha: ");
             scanf("%d", &caixa_escolhida2);
             printf("");
