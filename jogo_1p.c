@@ -22,7 +22,7 @@ int main (){
     //JOGO1
     if (escolha == 1){
 
-    printf("\nNeste jogo, o computador apresenta uma pergunta com quatro alternativas e solicita que o usuário escolha a resposta correta. Após a seleção, o sistema indicará se a resposta está correta ou incorreta. Caso seja incorreta, será exibida a resposta correta.\n");
+    printf("\nNeste jogo, o computador apresenta uma pergunta com quatro alternativas e solicita que o usuario escolha a resposta correta. Apos a selecao, o sistema indicara se a resposta esta correta ou incorreta. Caso seja incorreta, sera exibida a resposta correta.\n");
 
     char alternativa;
     int pontos;
@@ -105,7 +105,7 @@ int main (){
     //JOGO2
     if (escolha == 2){
     
-    printf("\nA história do jogo se passa dentro de uma tumba egípcia onde dois exploradores ficaram presos. No centro da sala, há cinco caixas: uma delas contém o botão para abrir a porta, enquanto uma outra esconde uma cobra mortal. A cada rodada, o local do botão e da cobra muda de caixa de forma aleatória, aumentando o desafio e a imprevisibilidade do jogo.\n");
+    printf("\nA historia do jogo se passa dentro de uma tumba egipcia onde dois exploradores ficaram presos. No centro da sala, ha cinco caixas: uma delas contem o botao para abrir a porta, enquanto uma outra esconde uma cobra mortal. A cada rodada, o local do botao e da cobra muda de caixa de forma aleatoria, aumentando o desafio e a imprevisibilidade do jogo.\n");
 
     srand(time(NULL));
 
@@ -219,6 +219,8 @@ int main (){
     //JOGO3
     if (escolha == 3){
 
+    printf("\nNeste jogo de estrategia, os jogadores controlam criaturas chamadas Gousmas, que podem se dividir e acumular furia ao serem atacadas.\n");
+    
     int gousma;
     int gousmas1, gousmas1_1, gousmas2, gousmas2_1;
     int furia_g1, furia_g1_1, furia_g2, furia_g2_1;
@@ -229,8 +231,6 @@ int main (){
     int rodadas;
     
     do{
-
-       printf("\nNeste jogo de estratégia, os jogadores controlam criaturas chamadas Gousmas, que podem se dividir e acumular fúria ao serem atacadas.\n");
        
         rodadas = 1;
 
