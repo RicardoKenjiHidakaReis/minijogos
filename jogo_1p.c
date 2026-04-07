@@ -204,7 +204,7 @@ int main (){
     }
         
         if (vencedor == 1){
-            printf("O vencedor da rodada foi: %s\n", nomes[jogador1]);
+            printf("\nO vencedor da rodada foi: %s\n", nomes[jogador1]);
         }
         else {
             printf("O vencedor da rodada foi: %s\n", nomes[jogador2]);
