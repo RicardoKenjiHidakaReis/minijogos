@@ -17,7 +17,12 @@ int main (){
 
     printf("\nQual desses Minijogos desejas jogar?: ");
     scanf("%d", &escolha);
-    
+
+    if (escolha != 1 || escolha != 2 || escolha != 3 || escolha != 4 ){
+     printf("Escolha inavlida!\n");
+    	printf("Escolha um numero entre 1 - 4.");
+    	scanf("%d", escolha);			    	
+	}
     
     //JOGO1
     if (escolha == 1){
