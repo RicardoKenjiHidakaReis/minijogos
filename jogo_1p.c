@@ -45,7 +45,7 @@ int main (){
             }
 
         printf("Quantos titulos de Copa do Mundo o Brasil possue?\n");
-        printf("A) 2  B) 5  C) 3  D) 6\n\n");
+        printf("A) 2  B) 5  C) 3  D) 6\n");
         printf("Escolha a alternativa: ");
         scanf(" %c", &alternativa);
             if (alternativa != 'b' && alternativa != 'B'){
@@ -167,7 +167,7 @@ int main (){
 
         printf("\n%s escolha sua caixa: ", nome_primeiro);
         scanf("%d", &caixa_escolhida1);
-        printf("%s escolha sua caixa (diferente da escolhida pelo primeiro): ", nome_segundo);
+        printf("%s escolha sua caixa (diferente da escolhida pelo primeiro): \n", nome_segundo);
         scanf("%d", &caixa_escolhida2);
         
         while (caixa_escolhida2 == caixa_escolhida1){
@@ -190,15 +190,15 @@ int main (){
 
         
         if (caixa_escolhida2 == caixa_botao){
-            printf("\nParabens, voce achou o botao!\n");
+            printf("Parabens, voce achou o botao!\n");
             vencedor = 2;
         }
         else if (caixa_escolhida2 == caixa_cobra) {
-            printf("\nCobra!\n");
+            printf("Cobra!\n");
             vencedor = 1;
         }
         else {
-            printf("\nVazia.\n");
+            printf("Vazia.\n");
         }
         
     }
