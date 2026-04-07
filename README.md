@@ -1,4 +1,4 @@
-# minijogos
+# MINIJOGOS
 
 - MINIJOGOS é um programa desenvolvido em Linguagem C, o qual reúne 3 minijogos em um menu interativo. O jogador escolhe qual jogo deseja jogar.
 - Tal projeto foi desenvolvido como um trabalho prático da disciplina deAlgoritimo e Codificação de Sistemas.
