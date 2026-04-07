@@ -174,6 +174,7 @@ int main (){
             printf("Escolha uma caixa diferente!\n");
             printf("Escolha: ");
             scanf("%d", &caixa_escolhida2);
+            printf("");
         }
         
         if (caixa_escolhida1 == caixa_botao){
