@@ -4,7 +4,7 @@
 - Tal projeto foi desenvolvido como um trabalho prático da disciplina deAlgoritimo e Codificação de Sistemas.
   
 - Dentre os jogos temos:
-1. Perguntas e Respostas -
+1. Perguntas e Respostas 
   - Quiz múltipla escolha.
   - Aqui você terá 5 perguntas e 5 alternativas.
   - Ao final delas, você terá o resultado das suas respostas.
